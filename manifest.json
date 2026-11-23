@@ -495,6 +495,76 @@
       ],
       "ast": [
         "aggregate/ast/e7217b5f43d522ab6fbd4919c1583cf51e414ba4/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/e7217b5f43d522ab6fbd4919c1583cf51e414ba4.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "zerocopy-derive",
+          "ecosystem": "CARGO",
+          "version": "=0.9.0-alpha.0",
+          "githubOrg": "google",
+          "githubRepo": "zerocopy",
+          "githubUrl": "https://github.com/google/zerocopy",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "itertools",
+          "ecosystem": "CARGO",
+          "version": "0.11",
+          "githubOrg": "rust-itertools",
+          "githubRepo": "itertools",
+          "githubUrl": "https://github.com/rust-itertools/itertools",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.8.5",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubCommit": "937320cbfeebd4352a23086d9c6e68f067f74644",
+          "githubTag": "0.8.5",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rustversion",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "dtolnay",
+          "githubRepo": "rustversion",
+          "githubUrl": "https://github.com/dtolnay/rustversion",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "static_assertions",
+          "ecosystem": "CARGO",
+          "version": "1.1",
+          "githubOrg": "nvzqz",
+          "githubRepo": "static-assertions-rs",
+          "githubUrl": "https://github.com/nvzqz/static-assertions-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "trybuild",
+          "ecosystem": "CARGO",
+          "version": "=1.0.89",
+          "githubOrg": "dtolnay",
+          "githubRepo": "trybuild",
+          "githubUrl": "https://github.com/dtolnay/trybuild",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "elain",
+          "ecosystem": "CARGO",
+          "version": "0.3.0",
+          "githubOrg": "jswrenn",
+          "githubRepo": "elain",
+          "githubCommit": "28b13769c1c188c5d365043b2f220d2409823c18",
+          "githubTag": "v0.3.0",
+          "githubUrl": "https://github.com/jswrenn/elain",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],
