@@ -565,7 +565,9 @@
           "githubUrl": "https://github.com/jswrenn/elain",
           "source": "build_file:Cargo.toml"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/e7217b5f43d522ab6fbd4919c1583cf51e414ba4/chunk-001.nq.gz",
+      "dep": "dep/e7217b5f43d522ab6fbd4919c1583cf51e414ba4.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
